@@ -1,5 +1,5 @@
 import pytest
-from e02_summing_numbers import mysum
+from e02_summing_numbers_Floyd import mysum
 
 
 @pytest.mark.parametrize('inputs, expected_sum', [
