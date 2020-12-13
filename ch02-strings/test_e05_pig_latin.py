@@ -1,4 +1,4 @@
-from e05_pig_latin import pig_latin
+from e05_pig_latin_Floyd import pig_latin
 from io import StringIO
 import pytest
 

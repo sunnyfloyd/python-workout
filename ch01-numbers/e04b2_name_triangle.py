@@ -10,3 +10,6 @@ with the first letter, then the first two letters, etc.
 
     for i in range(len(name)):
         print(name[:i+1])
+
+
+name_triangle()
