@@ -1,4 +1,4 @@
-from e08_sort_string import strsort
+from e08_sort_string_Floyd import strsort
 from io import StringIO
 import pytest
 

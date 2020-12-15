@@ -1,4 +1,4 @@
-from e06_pig_latin_sentence import pl_sentence
+from e05_pig_latin_Floyd import pl_sentence
 from io import StringIO
 import pytest
 
