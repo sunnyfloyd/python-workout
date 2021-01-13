@@ -1,4 +1,4 @@
-from e10_sum_anything import mysum
+from e10_sum_anything_Floyd import mysum
 import pytest
 
 
