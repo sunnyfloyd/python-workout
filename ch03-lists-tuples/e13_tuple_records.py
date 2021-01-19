@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 """Solution to chapter 3, exercise 13: tuple_records"""
 
 
