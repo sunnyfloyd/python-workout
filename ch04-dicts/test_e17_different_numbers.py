@@ -1,4 +1,4 @@
-from e17_different_numbers import how_many_different_numbers
+from e17_different_numbers_Floyd import how_many_different_numbers
 import pytest
 
 
