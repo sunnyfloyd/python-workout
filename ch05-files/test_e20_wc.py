@@ -1,4 +1,4 @@
-from e20_wc import wordcount
+from e20_wc_Floyd import wordcount
 import pytest
 from io import StringIO
 

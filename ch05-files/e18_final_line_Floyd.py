@@ -27,3 +27,26 @@ def sum_columns(file):
 
 # print(sum_columns('ch05-files\\numbers.txt'))
 
+
+import requests
+
+
+def count_vowels(url):
+    VOWELS = 'aeouiy'
+    vowel_counts = {}
+    response = requests.get(url)
+    response.raise_for_status()
+    
+    with open('ch05-files\\vowels.txt', 'wb') as f:
+        f.write(response.content)
+
+    with open('ch05-files\\vowels.txt') as f:
+        for line in f:
+            for char in tuple(line.lower()):
+                if char in VOWELS:
+                    vowel_counts[char] = vowel_counts.setdefault(char, 0) + 1
+    return vowel_counts
+
+
+url = 'https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt'
+print(count_vowels(url))
