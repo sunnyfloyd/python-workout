@@ -25,4 +25,5 @@ def sum_columns(file):
     return total
 
 
-print(sum_columns('ch05-files\\numbers.txt'))
+# print(sum_columns('ch05-files\\numbers.txt'))
+
