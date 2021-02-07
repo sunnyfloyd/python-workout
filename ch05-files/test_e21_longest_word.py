@@ -1,4 +1,4 @@
-from e21_longest_word_floyd import find_longest_word, find_all_longest_words
+from e21_longest_word_Floyd import find_longest_word, find_all_longest_words
 import pytest
 from io import StringIO
 
