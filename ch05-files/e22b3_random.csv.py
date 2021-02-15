@@ -23,3 +23,4 @@ def random_csv(csv_filename):
                    for one_item in one_line.split(',')]
 
         print(f'sum = {sum(numbers)}, mean = {sum(numbers)/len(numbers)}')
+

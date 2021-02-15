@@ -1,4 +1,4 @@
-from e24_reverse_lines import reverse_lines
+from e24_reverse_lines_Floyd import reverse_lines
 import pytest
 
 
