@@ -1,5 +1,5 @@
 import pytest
-from e25_xml import myxml
+from e25_xml_Floyd import myxml
 
 
 def test_tagonly():

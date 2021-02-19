@@ -1,5 +1,5 @@
 import pytest
-from e26_calc import calc
+from e26_calc_Floyd import calc
 
 
 @pytest.mark.parametrize('to_solve, output', [
