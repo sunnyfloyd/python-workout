@@ -1,4 +1,4 @@
-from e30_flatten_list import flatten
+from e30_flatten_list_Floyd import flatten
 import pytest
 
 

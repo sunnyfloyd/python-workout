@@ -1,4 +1,4 @@
-from e29_sum_numbers import sum_numbers
+from e29_sum_numbers_Floyd import sum_numbers
 import pytest
 
 
