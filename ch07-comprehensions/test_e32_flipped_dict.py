@@ -1,4 +1,4 @@
-from e32_flipped_dict import flipped_dict
+from e32_flipped_dict_Floyd import flipped_dict
 import pytest
 
 
