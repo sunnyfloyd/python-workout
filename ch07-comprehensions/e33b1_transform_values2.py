@@ -4,6 +4,6 @@
 
 
 def transform_values2(func1, func2, a_dict):
-    return {key: func(value)
+    return {key: func1(value)
             for key, value in a_dict.items()
             if func2(key, value)}

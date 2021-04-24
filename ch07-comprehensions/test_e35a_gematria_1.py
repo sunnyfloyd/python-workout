@@ -1,4 +1,4 @@
-from e35a_gematria_1 import gematria_dict
+from e35a_gematria_1_Floyd import gematria_dict
 
 
 def test_gematria_dict():

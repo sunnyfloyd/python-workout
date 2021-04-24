@@ -13,3 +13,6 @@ in which all five vowels can be found.
     return {word.strip()
             for word in open(filename)
             if vowels < set(word.lower())}
+
+
+print(get_sv('ch07-comprehensions\words.txt'))

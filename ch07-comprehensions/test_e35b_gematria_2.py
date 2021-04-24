@@ -1,4 +1,4 @@
-from e35b_gematria_2 import gematria_equal_words, gematria_for
+from e35b_gematria_2_Floyd import gematria_equal_words, gematria_for
 import pytest
 
 

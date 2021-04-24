@@ -5,7 +5,7 @@
 
 def analyze_string(s):
     output = {'isdigit': 0,
-              'isalpha': 0
+              'isalpha': 0,
               'isspace': 0}
 
     for one_character in s:
