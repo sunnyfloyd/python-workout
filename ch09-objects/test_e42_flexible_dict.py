@@ -1,4 +1,4 @@
-from e42_flexible_dict import FlexibleDict
+from e42_flexible_dict_Floyd import FlexibleDict
 
 
 def test_flexible_dict():
