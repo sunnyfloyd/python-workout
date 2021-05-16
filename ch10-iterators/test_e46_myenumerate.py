@@ -1,4 +1,4 @@
-from e46_myenumerate import MyEnumerate
+from e46_myenumerate_Floyd import MyEnumerate
 
 
 def test_simple():
